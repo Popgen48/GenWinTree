@@ -1,0 +1,17 @@
+{
+    "tools": {
+    "RaxML":"/path/to/raxml-ng"
+    },
+    "base_dir": {
+        "inputDir":"/path/to/input/directory",
+        "outputDir": "/path/to/output/directory"
+    },
+    "params":{
+        "sampleList":["sample1", "sample2", "sample3", "sample4"],
+        "windowSize":"10000",
+        "stepSize":"50000",
+        "threads":"2",
+	"vcfPattern": "_filtered.vcf.gz"
+    }
+
+}
